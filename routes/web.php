@@ -26,6 +26,5 @@ Route::put('/blog/{blogPost}/edit',[BlogPostController::class,'update']);
 //delete posts from database
 Route::delete('/blog/{blogPost}',[BlogPostController::class,'destroy']);
 
-
-
+//checking git
 ?>
