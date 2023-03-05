@@ -1,0 +1,71 @@
+body
+{
+    text-align: center;
+    color: honeydew;
+    font-size:100%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-image: url("https://images.pexels.com/photos/2775196/pexels-photo-2775196.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+
+}
+a{
+    color:black;
+}
+.btn{
+    display: grid;
+    height: 20px;
+    width: 100px;
+    background: linear-gradient(
+        #9365ff,
+        #6f3bff
+    );
+    position: absolute;
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    place-items: bottom;
+    font-family: "poppins",sans-serif;
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 500;
+    text-decoration: none;
+    letter-spacing: 2px;
+    border-radius: 2px;
+
+}
+.btn1{
+    display: grid;
+    height: 20px;
+    width: 100px;
+    background: linear-gradient(
+        #9365ff,
+        #6f3bff
+    );
+    position:relative;
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    place-items: bottom;
+    font-family: "poppins",sans-serif;
+    color: #ffffff;
+    font-size: 13px;
+    font-weight: 500;
+    text-decoration: none;
+    letter-spacing: 2px;
+    border-radius: 2px;
+}
+.form-control{
+ box-sizing: border-box;
+ width: 100%;
+ padding: 12px;
+ border: 1px solid #ccc;
+ border-radius: 4px;
+ resize: vertical;
+}
+label{
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+}
